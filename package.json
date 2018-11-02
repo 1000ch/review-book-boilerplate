@@ -1,0 +1,37 @@
+{
+  "name": "review-book-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "global": "gem install bundler",
+    "postinstall": "bundle install",
+    "check:prh": "prh --verify --verbose articles/*.re",
+    "check": "npm run check:prh",
+    "pdf": "grunt pdf",
+    "epub": "grunt epub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000ch/review-book-boilerplate.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/1000ch/review-book-boilerplate/issues"
+  },
+  "homepage": "https://github.com/1000ch/review-book-boilerplate#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-open": "^0.2.3",
+    "grunt-shell": "^2.1.0",
+    "js-yaml": "^3.6.0",
+    "load-grunt-tasks": "^4.0.0",
+    "prh": "^5.4.0",
+    "prh-languageserver": "^1.0.1"
+  }
+}

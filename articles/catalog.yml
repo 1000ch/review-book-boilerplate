@@ -1,0 +1,14 @@
+PREDEF:
+  - 0.preface.re
+
+CHAPS:
+  - 1.foo.re
+  - 2.bar.re
+  - 3.baz.re
+
+APPENDIX:
+  - 7.appendix.re
+
+POSTDEF:
+  - 8.postface.re
+  - 9.contributors.re
